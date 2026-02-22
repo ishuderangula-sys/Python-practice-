@@ -9,8 +9,9 @@ This repository contains basic Python programs for learning and practice.
 - Learning Python basics
 - Practicing programming logic
 - Building GitHub profile
+- More programs coming soon
 
 ## Author
 Ishwarya  
 BSc Computer Science (2nd Year)
-#More programs coming soon
+
