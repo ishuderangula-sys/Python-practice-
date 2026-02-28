@@ -12,7 +12,7 @@ if num > 1:
 else:
     print("Enter a number greater than 1")
 num = int(input("Enter a number: "))
-
+# Check greater than 7
 if num > 7:
     print("Number is greater than 7")
 else:
