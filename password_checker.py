@@ -24,3 +24,11 @@ elif length >= 6:
 
 else:
     print("Weak Password ❌")
+    has_special = False
+
+for char in password:
+    if not char.isalnum():
+        has_special = True
+
+if length >= 8 and has_upper and has_lower and has_digit and has_special:
+    print("Very Strong Password 🔥")
