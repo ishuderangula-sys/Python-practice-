@@ -25,3 +25,5 @@ elif average >= 50:
     print("Grade: C")
 else:
     print("Grade: Fail")
+    percentage = (total / 500) * 100
+print("Percentage:", percentage)
