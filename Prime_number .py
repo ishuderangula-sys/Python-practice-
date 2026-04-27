@@ -17,3 +17,18 @@ if num > 7:
     print("Number is greater than 7")
 else:
     print("Enter a number greater than 7")
+# Palindrome Number Checker
+
+num = int(input("Enter a number: "))
+temp = num
+reverse = 0
+
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+
+if temp == reverse:
+    print(temp, "is a Palindrome")
+else:
+    print(temp, "is NOT a Palindrome")
